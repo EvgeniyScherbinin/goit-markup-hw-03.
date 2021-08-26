@@ -31,6 +31,8 @@ ul {
 
 .list {
     list-style:none;
+    display: flex;
+    margin-bottom: 94px;
 }
 link {
     text-decoration: none;
@@ -215,17 +217,14 @@ link {
     border: none;
     cursor: pointer;
     padding: 10px 32px;
-   
-    
 }
 
-/* .button:hover {
-    color: #188CE8; */
-}
+
 
 
 
 /* Преимущества */
+
 .section-advantage .list {
     display: flex;
     margin-bottom: 94px;

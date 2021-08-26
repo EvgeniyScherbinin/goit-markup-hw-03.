@@ -217,6 +217,11 @@ link {
     border: none;
     cursor: pointer;
     padding: 10px 32px;
+    
+}
+
+.button:hover {
+    color: #188CE8;
 }
 
 

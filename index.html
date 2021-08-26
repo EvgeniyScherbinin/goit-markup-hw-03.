@@ -6,20 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,900;1,500&display=swap"
-        rel="stylesheet">">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<body>
+<body style="font-family:Roboto">
     <header class="header">
         <div class="container">
             <nav class="header-nav">
-                <a href="index.html" lang="en"><span class="logo-first">Web</span><span
+                <a href="index.html" class="logo-header" lang="en"><span class="logo-first">Web</span><span
                         class="logo-second">Studio</span></a>
 
                 <ul class="site-nav-list">
@@ -90,28 +91,38 @@
 
         <section class="team">
             <div class="container">
+                
                 <h2 class="section-title">Наша команда</h2>
+                
                 <ul class="team-list">
-                    <li class="team-item">
-                        <img class="team-img" src="images/img1.jpeg" width="270" alt="описание">
-                        <h3 class="team-title">Игорь Демьяненко</h3>
-                        <p class="team-paragraph">Product Designer</p>
-                    </li>
-                    <li class="team-item">
-                        <img class="team-img" src="images/img2.jpeg" width="270" alt="описание">
-                        <h3 class="team-title">Ольга Репина</h3>
-                        <p class="team-paragraph">Frontend Developer</p>
-                    </li>
-                    <li class="team-item">
-                        <img class="team-img" src="images/img3.jpeg" width="270" alt="описание">
-                        <h3 class="team-title">Николай Тарасов</h3>
-                        <p class="team-paragraph">Marketing</p>
-                    </li>
-                    <li class="team-item">
-                        <img class="team-img" src="images/img4.jpeg" width="270" alt="описание">
-                        <h3 class="team-title">Михаил Ермаков</h3>
-                        <p class="team-paragraph">UI Designer</p>
-                    </li>
+                    <div class="card">
+                        <li class="team-item">
+                            <img class="team-img" src="images/img1.jpeg" width="270" alt="описание">
+                            <h3 class="team-title">Игорь Демьяненко</h3>
+                            <p class="team-paragraph">Product Designer</p>
+                        </li>
+                    </div>
+                    <div class="card">
+                        <li class="team-item">
+                            <img class="team-img" src="images/img2.jpeg" width="270" alt="описание">
+                            <h3 class="team-title">Ольга Репина</h3>
+                            <p class="team-paragraph">Frontend Developer</p>
+                        </li>
+                    </div>
+                    <div class="card">
+                        <li class="team-item">
+                            <img class="team-img" src="images/img3.jpeg" width="270" alt="описание">
+                            <h3 class="team-title">Николай Тарасов</h3>
+                            <p class="team-paragraph">Marketing</p>
+                        </li>
+                    </div>
+                    <div class="card">
+                        <li class="team-item">
+                            <img class="team-img" src="images/img4.jpeg" width="270" alt="описание">
+                            <h3 class="team-title">Михаил Ермаков</h3>
+                            <p class="team-paragraph">UI Designer</p>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </section>
@@ -120,7 +131,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-logo">
-                <a href="" lang="en"><span class="logo-first">Web</span><span class="logo-second-footer">Studio</span></a>
+                <a href="" class="link" lang="en"><span class="logo-first">Web</span><span class="logo-second-footer">Studio</span></a>
             </div>    
             <ul class="footer-list">
                 <li class="footer-item">
@@ -136,4 +147,3 @@
 </html>
 
 
-<a href="https://goit.global" target="" rel=""> GoIT </a>
